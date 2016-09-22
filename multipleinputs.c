@@ -1,3 +1,5 @@
+//This code returns the output of various gates for MULTIPLE INPUTS
+//in this case it returns the output of Xnor gate
 #include <stdio.h>
 #include <stdlib.h>
 
