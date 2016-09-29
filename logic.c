@@ -21,25 +21,25 @@
 
 static void addswitch(GtkWidget *widget, gpointer data)
 {
-			widget = gtk_switch_new();
-			gtk_switch_set_active(GTK_SWITCH(widget),TRUE);
-			gtk_grid_attach(GTK_GRID(grid1),widget,1,3,1,1);
-			gtk_widget_show(widget);
-			gtk_widget_show(grid1);
+	widget = gtk_switch_new();
+	gtk_switch_set_active(GTK_SWITCH(widget),TRUE);
+	gtk_grid_attach(GTK_GRID(grid1),widget,1,3,1,1);
+	gtk_widget_show(widget);
+	gtk_widget_show(grid1);
 }
 
 static void addtoggle(GtkWidget *widget, gpointer data)
 {
-			widget = gtk_toggle_button_new_with_label("Togggle");
-			gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(widget),TRUE);
-			gtk_grid_attach(GTK_GRID(grid1),widget,1,4,1,1);
-			gtk_widget_show(widget);
-			gtk_widget_show(grid1);
+	widget = gtk_toggle_button_new_with_label("Togggle");
+	gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(widget),TRUE);
+	gtk_grid_attach(GTK_GRID(grid1),widget,1,4,1,1);
+	gtk_widget_show(widget);
+	gtk_widget_show(grid1);
 }
 
 static void and(GtkWidget *widget, gpointer data)
 {
-		image = gtk_image_new_from_file("AND.png");
+	image = gtk_image_new_from_file("AND.png");
         gtk_grid_attach(GTK_GRID(grid1),image,2,5,1,1);
         gtk_widget_show(image);
         gtk_widget_show(grid1);
@@ -47,7 +47,7 @@ static void and(GtkWidget *widget, gpointer data)
 
 static void or(GtkWidget *widget, gpointer data)
 {
-		image = gtk_image_new_from_file("OR.png");
+	image = gtk_image_new_from_file("OR.png");
         gtk_grid_attach(GTK_GRID(grid1),image,2,6,1,1);
         gtk_widget_show(image);
         gtk_widget_show(grid1);
@@ -55,7 +55,7 @@ static void or(GtkWidget *widget, gpointer data)
 
 static void not(GtkWidget *widget, gpointer data)
 {
-		image = gtk_image_new_from_file("NOT.png");
+	image = gtk_image_new_from_file("NOT.png");
         gtk_grid_attach(GTK_GRID(grid1),image,2,7,1,1);
         gtk_widget_show(image);
         gtk_widget_show(grid1);
@@ -63,7 +63,7 @@ static void not(GtkWidget *widget, gpointer data)
 
 static void nand(GtkWidget *widget, gpointer data)
 {
-		image = gtk_image_new_from_file("NAND.png");
+	image = gtk_image_new_from_file("NAND.png");
         gtk_grid_attach(GTK_GRID(grid1),image,2,8,1,1);
         gtk_widget_show(image);
         gtk_widget_show(grid1);
@@ -71,7 +71,7 @@ static void nand(GtkWidget *widget, gpointer data)
 
 static void nor(GtkWidget *widget, gpointer data)
 {
-		image = gtk_image_new_from_file("NOR.png");
+	image = gtk_image_new_from_file("NOR.png");
         gtk_grid_attach(GTK_GRID(grid1),image,2,9,1,1);
         gtk_widget_show(image);
         gtk_widget_show(grid1);
@@ -79,7 +79,7 @@ static void nor(GtkWidget *widget, gpointer data)
 
 static void xor(GtkWidget *widget, gpointer data)
 {
-		image = gtk_image_new_from_file("XOR.png");
+	image = gtk_image_new_from_file("XOR.png");
         gtk_grid_attach(GTK_GRID(grid1),image,2,10,1,1);
         gtk_widget_show(image);
         gtk_widget_show(grid1);
@@ -87,7 +87,7 @@ static void xor(GtkWidget *widget, gpointer data)
 
 static void xnor(GtkWidget *widget, gpointer data)
 {
-		image = gtk_image_new_from_file("XNOR.png");
+	image = gtk_image_new_from_file("XNOR.png");
         gtk_grid_attach(GTK_GRID(grid1),image,2,11,1,1);
         gtk_widget_show(image);
         gtk_widget_show(grid1);
