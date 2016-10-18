@@ -322,7 +322,7 @@ static void andwindow(GtkWidget *widget,gpointer data)
   			g_signal_connect(GTK_BUTTON(two),"clicked",G_CALLBACK(and),NULL);
   			g_signal_connect(GTK_BUTTON(two),"clicked",G_CALLBACK(destroywindow),NULL);
   			
-    		three = gtk_button_new_with_label("Three");
+    		        three = gtk_button_new_with_label("Three");
   			gtk_box_pack_start(GTK_BOX(box),three,TRUE,TRUE,10);
   			g_signal_connect(GTK_BUTTON(three),"clicked",G_CALLBACK(and3),NULL);
 			g_signal_connect(GTK_BUTTON(three),"clicked",G_CALLBACK(destroywindow),NULL);
@@ -333,7 +333,7 @@ static void andwindow(GtkWidget *widget,gpointer data)
 			g_signal_connect(GTK_BUTTON(four),"clicked",G_CALLBACK(destroywindow),NULL);
 			
   			gtk_widget_show(box);
-    		gtk_widget_show(combolabel);
+    		        gtk_widget_show(combolabel);
   			gtk_widget_show_all(window1);
   			
 }
@@ -357,7 +357,7 @@ static void orwindow(GtkWidget *widget,gpointer data)
   			g_signal_connect(GTK_BUTTON(two),"clicked",G_CALLBACK(or),NULL);
   			g_signal_connect(GTK_BUTTON(two),"clicked",G_CALLBACK(destroywindow),NULL);
   			
-    		three = gtk_button_new_with_label("Three");
+    		        three = gtk_button_new_with_label("Three");
   			gtk_box_pack_start(GTK_BOX(box),three,TRUE,TRUE,10);
   			g_signal_connect(GTK_BUTTON(three),"clicked",G_CALLBACK(or3),NULL);
 			g_signal_connect(GTK_BUTTON(three),"clicked",G_CALLBACK(destroywindow),NULL);
@@ -368,7 +368,7 @@ static void orwindow(GtkWidget *widget,gpointer data)
 			g_signal_connect(GTK_BUTTON(four),"clicked",G_CALLBACK(destroywindow),NULL);
 
   			gtk_widget_show(box);
-    		gtk_widget_show(combolabel);
+    		        gtk_widget_show(combolabel);
   			gtk_widget_show_all(window1);
   			
 }
@@ -392,7 +392,7 @@ static void nandwindow(GtkWidget *widget,gpointer data)
   			g_signal_connect(GTK_BUTTON(two),"clicked",G_CALLBACK(nand),NULL);
   			g_signal_connect(GTK_BUTTON(two),"clicked",G_CALLBACK(destroywindow),NULL);
   			
-    		three = gtk_button_new_with_label("Three");
+    		        three = gtk_button_new_with_label("Three");
   			gtk_box_pack_start(GTK_BOX(box),three,TRUE,TRUE,10);
   			g_signal_connect(GTK_BUTTON(three),"clicked",G_CALLBACK(nand3),NULL);
 			g_signal_connect(GTK_BUTTON(three),"clicked",G_CALLBACK(destroywindow),NULL);
@@ -403,7 +403,7 @@ static void nandwindow(GtkWidget *widget,gpointer data)
 			g_signal_connect(GTK_BUTTON(four),"clicked",G_CALLBACK(destroywindow),NULL);
 
   			gtk_widget_show(box);
-    		gtk_widget_show(combolabel);
+    		        gtk_widget_show(combolabel);
   			gtk_widget_show_all(window1);
   			
 }
@@ -427,7 +427,7 @@ static void norwindow(GtkWidget *widget,gpointer data)
   			g_signal_connect(GTK_BUTTON(two),"clicked",G_CALLBACK(nor),NULL);
   			g_signal_connect(GTK_BUTTON(two),"clicked",G_CALLBACK(destroywindow),NULL);
   			
-    		three = gtk_button_new_with_label("Three");
+    		        three = gtk_button_new_with_label("Three");
   			gtk_box_pack_start(GTK_BOX(box),three,TRUE,TRUE,10);
   			g_signal_connect(GTK_BUTTON(three),"clicked",G_CALLBACK(nor3),NULL);
 			g_signal_connect(GTK_BUTTON(three),"clicked",G_CALLBACK(destroywindow),NULL);
@@ -438,7 +438,7 @@ static void norwindow(GtkWidget *widget,gpointer data)
 			g_signal_connect(GTK_BUTTON(four),"clicked",G_CALLBACK(destroywindow),NULL);
 
   			gtk_widget_show(box);
-    		gtk_widget_show(combolabel);
+    		        gtk_widget_show(combolabel);
   			gtk_widget_show_all(window1);
   			
 }
@@ -462,18 +462,18 @@ static void xorwindow(GtkWidget *widget,gpointer data)
   			g_signal_connect(GTK_BUTTON(two),"clicked",G_CALLBACK(xor),NULL);
   			g_signal_connect(GTK_BUTTON(two),"clicked",G_CALLBACK(destroywindow),NULL);
   			
-    		three = gtk_button_new_with_label("Three");
+    		        three = gtk_button_new_with_label("Three");
   			gtk_box_pack_start(GTK_BOX(box),three,TRUE,TRUE,10);
   			g_signal_connect(GTK_BUTTON(three),"clicked",G_CALLBACK(xor3),NULL);
 			g_signal_connect(GTK_BUTTON(three),"clicked",G_CALLBACK(destroywindow),NULL);
 
-            four = gtk_button_new_with_label("Four");
+                        four = gtk_button_new_with_label("Four");
   			gtk_box_pack_start(GTK_BOX(box),four,TRUE,TRUE,10);
   			g_signal_connect(GTK_BUTTON(four),"clicked",G_CALLBACK(xor4),NULL);
 			g_signal_connect(GTK_BUTTON(four),"clicked",G_CALLBACK(destroywindow),NULL);
 
   			gtk_widget_show(box);
-    		gtk_widget_show(combolabel);
+    		        gtk_widget_show(combolabel);
   			gtk_widget_show_all(window1);
   			
 }
@@ -497,7 +497,7 @@ static void xnorwindow(GtkWidget *widget,gpointer data)
   			g_signal_connect(GTK_BUTTON(two),"clicked",G_CALLBACK(xnor),NULL);
   			g_signal_connect(GTK_BUTTON(two),"clicked",G_CALLBACK(destroywindow),NULL);
   			
-    		three = gtk_button_new_with_label("Three");
+    		        three = gtk_button_new_with_label("Three");
   			gtk_box_pack_start(GTK_BOX(box),three,TRUE,TRUE,10);
   			g_signal_connect(GTK_BUTTON(three),"clicked",G_CALLBACK(xnor3),NULL);
 			g_signal_connect(GTK_BUTTON(three),"clicked",G_CALLBACK(destroywindow),NULL);
@@ -508,7 +508,7 @@ static void xnorwindow(GtkWidget *widget,gpointer data)
 			g_signal_connect(GTK_BUTTON(four),"clicked",G_CALLBACK(destroywindow),NULL);
 
   			gtk_widget_show(box);
-    		gtk_widget_show(combolabel);
+    		        gtk_widget_show(combolabel);
   			gtk_widget_show_all(window1);
   			
 }
@@ -572,7 +572,7 @@ int main(int argc, char *argv[]) {
   }
   
   if(strcmp(argv[1],"-h") == 0){
-  		printf("Usage:\n Initially,to compile the program, we need to install certain libraries like gtk3 and goocanvas.\nTo install the libraries,one way is to first install 'brew' (linuxbrew) command which basically allows user to install any c library and its dependencies. To install it, type the following command ' '.\n Now we need to install three libraries namely, 'gtk+3','goocanvas' and 'cairo'. Their dependencies will be automatically installed. To install gtk+3, type 'brew install gtk+3' and similarly for goocanvas type 'brew install goocanvas' and 'brew install cairo' for cairo. Alternatively, the three libraries can be also installed using sudo-apt but then their dependencies will have to be installed individually.\nAfter the two libraries have been installed, compile the program using the makefile. The application window consists of a transparent background which will display only if your system supports alpha channels.\n");
+  		printf("Usage:\n Initially,to compile the program, we need to install certain libraries like gtk3 and goocanvas.\nTo install the libraries,one way is to first install 'brew' (linuxbrew) command which basically allows user to install any c library and its dependencies. To install linuxbrew, go to readme.txt.\n Now we need to install three libraries namely, 'gtk+3','goocanvas' and 'cairo'. Their dependencies will be automatically installed. To install gtk+3, type 'brew install gtk+3' and similarly for goocanvas type 'brew install goocanvas' and 'brew install cairo' for cairo. Alternatively, the three libraries can be also installed using sudo-apt but then their dependencies will have to be installed individually.\nAfter the two libraries have been installed, compile the program using the makefile. The application window consists of a transparent background which will display only if your system supports alpha channels.\n");
   		return 0;
   }		
   
